@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/previous"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="Previous"
+        app:showAsAction="withText|never"/>
+
+    <item android:id="@+id/random"
+        android:icon="@android:drawable/ic_lock_idle_charging"
+        android:title="Random"
+        app:showAsAction="withText|never"/>
+
+    <item android:id="@+id/next"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="Next"
+        app:showAsAction="withText|never"/>
+</menu>
